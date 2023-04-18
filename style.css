@@ -19,9 +19,13 @@
     background-color: var(--colorLightgray);
     font-family: Outfit;
   }
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
   .card {
     margin: 0px auto;
-    margin-top: 141px;
     width: 322px;
     height: 500px;
     border-radius: 22px;
@@ -36,24 +40,19 @@
     margin: 0px auto;
     width: 290px;
     height: 288px;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
   }
   .card-body {
      margin-top: 27px;
      text-align: center;
-    
   }
   h1 {
-    
     font-weight: 700;
     font-size: 23px;
-   
   }
   p {
     font-size: 16px;
     font-weight: 400;
-    /* text-align: center; */
     color: var(--grayishblue);
     justify-content: center;
     margin-top: 22px;
@@ -63,9 +62,4 @@
   }
 
 
-@media (max-width: 376px) {
-  .card {
-    margin-top: 87px;
-  }
-  
-}
+
